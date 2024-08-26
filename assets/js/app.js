@@ -2,9 +2,12 @@ $('.slider-parent').slick({
     dots: false,
     infinite: true,
     speed: 300,
+    arrows : true,
     slidesToShow: 6,
     slidesToScroll: 1,
-    
+    autoplaySpeed: 2000,
+    infinite: true,
+  
     responsive: [
         {
             breakpoint: 1024,
@@ -12,14 +15,16 @@ $('.slider-parent').slick({
                 slidesToShow: 4,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: true
+                dots: true,
+                centerMode: true,
             }
         },
         {
             breakpoint: 600,
             settings: {
                 slidesToShow: 3,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                centerMode: true,
             }
         },
         {
