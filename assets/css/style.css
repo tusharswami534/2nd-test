@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    max-width: 1140px !important;
+}
+
+.p-12-7 {
+    padding: 12px 7px;
+
+}
+
+.line-height-120 {
+    line-height: 120%;
+}
+
+.line-height-150 {
+    line-height: 150%;
+}
+
+.line-height-130 {
+    line-height: 130%;
+}
+
+.line-height-160 {
+    line-height: 160%;
+}
+
+.section-heading {
+    font-family: "Outfit", sans-serif;
+    font-size: var(--fs-2xl);
+    font-weight: 600;
+}
+
+.header-span-heading {
+    color: #14A800;
+}
+
+.pb-52 {
+    padding-bottom: 52px !important;
+}
+
+.hero-card-info {
+    font-size: var(--fs-xl);
+    font-weight: 600;
+}
+
+.card-sm-heading {
+    font-size: var(--fs-md);
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+.card-info {
+    color: #4C4C4C;
+    font-size: var(--fs-md);
+    font-weight: 400;
+}
+
+.profile-info {
+    color: #717171;
+    font-size: var(--fs-md);
+    font-weight: 400;
+}
+
+.profile-heading {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.star-text {
+    font-size: var(--fs-sm);
+    font-weight: 400;
+    color: #14A800;
+}
+
+.card-profile-info {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4D4D4D;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.center-poisition {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slider-heading {
+    font-size: var(--fs-lg);
+    font-weight: 600;
+}
+
+.slider-info {
+    font-size: var(--fs-md);
+    font-weight: 400;
+}
+
+.w-35-h-35 {
+    width: 35px;
+    height: 35px;
+}
+.top-34{
+    top: 34% !important;
+}
+.top-18{
+    top: -18%;
+}
+.top-10{
+    top: 10%;
+}

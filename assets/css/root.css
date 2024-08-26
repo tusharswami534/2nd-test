@@ -1,0 +1,26 @@
+:root {
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 24px;
+    --fs-2xl: 48px;
+}
+
+@media (max-width:992px) {
+    :root {
+        --fs-sm: 12px;
+        --fs-md: 14px;
+        --fs-lg: 16px;
+        --fs-xl: 20px;
+        --fs-2xl: 40px;
+    }
+}
+@media (max-width:992px) {
+    :root {
+        --fs-sm: 10px;
+        --fs-md: 12px;
+        --fs-lg: 14px;
+        --fs-xl: 18px;
+        --fs-2xl: 36px;
+    }
+}
