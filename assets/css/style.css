@@ -134,24 +134,42 @@
     display: none !important;
 }
 
-.slick-next:before {
-    font-size: 20px;
-    background-color: black;
-
+.next {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #14A800;
+    border-radius: 50%;
+    background: transparent;
+    position: absolute;
+    right: -5%;
+    top: 30%;
 }
 
-.slick-prev:before {
-    font-size: 20px;
-    background-color: black;
-    color: white;
+.prev {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #14A800;
+    border-radius: 50%;
+    background: transparent;
+    left: -5%;
+    top: 30%;
 }
 
-@media (max-width:992px) {
-    .slick-next:before {
-        display: none !important;
-    }
-
-    .slick-prev:before {
-        display: none !important;
-    }
+.prev:hover {
+    background-color: #14A800;
 }
+
+.prev:hover svg path {
+    fill: white;
+}
+
+.next:hover {
+    background-color: #14A800;
+}
+
+.next:hover svg path {
+    fill: white;
+}
+
+
+    
