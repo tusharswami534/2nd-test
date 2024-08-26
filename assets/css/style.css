@@ -124,15 +124,6 @@
     top: 10%;
 }
 
-.next {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    border: 2px solid red;
-    background: white;
-    cursor: pointer;
-    transition: all 200ms linear;
-}
 
 .slick-track {
     display: flex !important;
@@ -146,11 +137,21 @@
 .slick-next:before {
     font-size: 20px;
     background-color: black;
-    color: white;
+
 }
 
 .slick-prev:before {
     font-size: 20px;
     background-color: black;
     color: white;
+}
+
+@media (max-width:992px) {
+    .slick-next:before {
+        display: none !important;
+    }
+
+    .slick-prev:before {
+        display: none !important;
+    }
 }
